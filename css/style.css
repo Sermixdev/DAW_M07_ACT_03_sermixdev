@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #eaeaea;
+}
+input{
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 7px;
+}
+.titulo{
+    font-size: 3rem;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    color: blue;
+    text-shadow: 2px 2px 4px black;
+}
+.subtitulo{
+    font-size: 1.5rem;
+    margin: 5px;
+    margin-top: 20px;
+    color: rgb(68, 68, 68);
+}
+.parrafo{
+    font-style: italic;
+    padding-top: 15px;
+}
+
+input[type="button"],input[type="submit"]{
+    margin-top: 10px;
+}
+input[type="button"]:hover,input[type="submit"]:hover{
+    background-color: grey;
+    cursor: pointer;
+}
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border: 2px solid blue;
+    border-radius: 20px;
+    font-size: 1.3rem;  
+    box-shadow: 0 0 3px blue;
+    background-color: white;
+}
+.contenedor .player{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    box-shadow: 0 0 3px black;
+    border-radius: 20px;
+}
+.contenedor .form{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor input[type="text"],input[type="number"]{
+    width: 100%;
+    text-align: center;
+}
+.contenedor .form .resultado{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+}
+.contenedor .row{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.contenedor div .deco{
+    font-weight: bold;
+}
